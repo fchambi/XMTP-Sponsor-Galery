@@ -8,17 +8,17 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   const nextId = idAsNumber + 1
 
-  if (idAsNumber === 3) {
+  if (idAsNumber === 13) {
     return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame 4</title>
-    <meta property="og:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qma1TxJo8QbeA6Mgjkg3E7owbbTsRM2Cz816DLhzasgb1Z/1.png" />
+    <meta property="og:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmPaHNPmFdA5Xjrymq86wpzsvF9QfQvJxDFaZscAw2U66G/1.png" />
     <meta property="fc:frame" content="vNext" />
     <meta property="of:accepts:xmtp" content="2024-02-01" />
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qma1TxJo8QbeA6Mgjkg3E7owbbTsRM2Cz816DLhzasgb1Z/1.png" />
+    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmPaHNPmFdA5Xjrymq86wpzsvF9QfQvJxDFaZscAw2U66G/1.png" />
 
     <meta property="fc:frame:button:1" content="View Tutorial" />
     <meta property="fc:frame:button:1:action" content="link" />
-    <meta property="fc:frame:button:1:target" content="https://github.com/Nith567/far" />
+    <meta property="fc:frame:button:1:target" content="https://ethglobal.com/events/frameworks/prizes" />
 
     <meta property="fc:frame:button:2" content="Restart" />
     <meta property="fc:frame:button:2:action" content="post" />
@@ -29,11 +29,11 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(
     `<!DOCTYPE html><html><head>
     <title>This is frame ${id}</title>
-    <meta property="og:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qma1TxJo8QbeA6Mgjkg3E7owbbTsRM2Cz816DLhzasgb1Z/${id}.png" />
+    <meta property="og:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmPaHNPmFdA5Xjrymq86wpzsvF9QfQvJxDFaZscAw2U66G/${id}.png" />
     <meta property="fc:frame" content="vNext" />
     <meta property="of:accepts:xmtp" content="2024-02-01" />
 
-    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qma1TxJo8QbeA6Mgjkg3E7owbbTsRM2Cz816DLhzasgb1Z/${id}.png" />
+    <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmPaHNPmFdA5Xjrymq86wpzsvF9QfQvJxDFaZscAw2U66G/${id}.png" />
     <meta property="fc:frame:button:1" content="Next iMAGE" />
     <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_SITE_URL}/api/basic?id=${nextId}" />
   </head></html>`
