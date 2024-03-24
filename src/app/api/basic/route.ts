@@ -16,7 +16,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="of:accepts:xmtp" content="2024-02-01" />
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmcsCLmNGWEZU7Z9aHacZ5eHzGky5uQrTfojLYgRYrKw1B/13.png" />
 
-    <meta property="fc:frame:button:1" content="View Tutorial" />
+    <meta property="fc:frame:button:1" content="Sponsors Frameworks" />
     <meta property="fc:frame:button:1:action" content="link" />
     <meta property="fc:frame:button:1:target" content="https://ethglobal.com/events/frameworks/prizes" />
 
@@ -34,7 +34,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="of:accepts:xmtp" content="2024-02-01" />
 
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmcsCLmNGWEZU7Z9aHacZ5eHzGky5uQrTfojLYgRYrKw1B/${id}.png" />
-    <meta property="fc:frame:button:1" content="Next iMAGE" />
+    <meta property="fc:frame:button:1" content="Next Sponsor" />
     <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_SITE_URL}/api/basic?id=${nextId}" />
   </head></html>`
   )
