@@ -8,7 +8,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   const nextId = idAsNumber + 1
 
-  if (idAsNumber === 4) {
+  if (idAsNumber === 3) {
     return new NextResponse(`<!DOCTYPE html><html><head>
     <title>This is frame 4</title>
     <meta property="og:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qma1TxJo8QbeA6Mgjkg3E7owbbTsRM2Cz816DLhzasgb1Z/1.png" />
